@@ -13,7 +13,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.pagination.ui.theme.PaginationTheme
 import com.example.pagination.ux.MainViewModel
-import com.example.pagination.ux.UserCard
 import com.example.pagination.ux.UserList
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -25,6 +24,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             PaginationTheme {
+
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
